@@ -1,0 +1,1216 @@
+{
+  "lxfdata": [
+    {
+      "id": 1,
+      "name": "太阳能光伏发电",
+      "name_en": "Solar Photovoltaic (PV)",
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800",
+      "category": "太阳能",
+      "summary": "利用半导体材料的光生伏特效应，将太阳光能直接转化为电能的技术，是目前发展最快、应用最广的新能源形式之一。",
+      "principle": "当太阳光照射到由P型和N型半导体组成的光伏电池上时，光子激发半导体中的电子产生电子-空穴对，在内建电场的作用下，电子和空穴分别向N区和P区移动，形成电流。",
+      "advantages": [
+        "清洁无污染，零碳排放",
+        "资源丰富，太阳光取之不尽",
+        "维护成本低，使用寿命长达25-30年",
+        "可分布式安装，适合家庭和工商业屋顶"
+      ],
+      "disadvantages": [
+        "发电受天气和昼夜影响大",
+        "需要储能设备配合使用",
+        "大规模电站占用土地面积大",
+        "生产过程有一定能耗和污染"
+      ],
+      "applications": [
+        "家庭屋顶发电",
+        "工商业分布式电站",
+        "大型地面光伏电站",
+        "光伏农业大棚",
+        "太空卫星供电"
+      ],
+      "global_capacity_gw": 1600,
+      "key_countries": [
+        "中国",
+        "美国",
+        "印度",
+        "日本",
+        "德国"
+      ],
+      "cost_trend": "近十年成本下降超过89%，已实现平价上网",
+      "fun_fact": "一小时内照射到地球表面的太阳能，足够满足全人类一年的能源需求。",
+      "video": "/videos/01_solar_pv.mp4"
+    },
+    {
+      "id": 2,
+      "name": "陆上风力发电",
+      "name_en": "Onshore Wind Power",
+      "image": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=800",
+      "category": "风能",
+      "summary": "利用陆地上的自然风力驱动风力发电机叶片旋转，将风能转化为电能，是技术最成熟、成本最低的可再生能源之一。",
+      "principle": "风吹动风机叶片旋转，叶片连接低速轴，通过齿轮箱增速后驱动发电机转子旋转切割磁力线产生电能。现代大型风机叶片长度可达80米以上。",
+      "advantages": [
+        "技术成熟，发电成本低",
+        "建设周期短，占地面积小（塔基部分）",
+        "不消耗燃料，无碳排放",
+        "可在农田、牧场等区域复合利用土地"
+      ],
+      "disadvantages": [
+        "风力不稳定导致发电波动",
+        "产生一定噪音和视觉影响",
+        "对鸟类有一定威胁",
+        "需要优质风资源区域"
+      ],
+      "applications": [
+        "陆上风电场",
+        "分散式风电",
+        "风光互补系统",
+        "海岛/偏远地区独立供电"
+      ],
+      "global_capacity_gw": 900,
+      "key_countries": [
+        "中国",
+        "美国",
+        "德国",
+        "印度",
+        "巴西"
+      ],
+      "cost_trend": "度电成本已降至0.2-0.4元/kWh，部分地区已低于火电",
+      "fun_fact": "一台5MW的陆上风机，一年发电量可满足约3000个家庭的用电需求。",
+      "video": "/videos/02_onshore_wind.mp4"
+    },
+    {
+      "id": 3,
+      "name": "海上风力发电",
+      "name_en": "Offshore Wind Power",
+      "image": "https://images.unsplash.com/photo-1548337138-e87d889cc369?w=800",
+      "category": "风能",
+      "summary": "在海洋上建设风力发电机组，利用海上更稳定、更强劲的风力资源发电，是风电技术的前沿方向。",
+      "principle": "与陆上风电原理相同，但海上风速更高更稳定，发电效率通常比陆上高20%-40%。海上风机基础形式包括单桩、导管架、浮式等。",
+      "advantages": [
+        "海上风资源更丰富稳定",
+        "不占用陆地资源",
+        "单机容量大（可达15MW+）",
+        "对居民噪音影响小"
+      ],
+      "disadvantages": [
+        "建设成本是陆上风电的2-3倍",
+        "施工难度大，受海洋天气影响",
+        "运维成本高",
+        "需要海底电缆输电"
+      ],
+      "applications": [
+        "近海风电场",
+        "远海浮式风电",
+        "海上风电制氢",
+        "海洋牧场结合"
+      ],
+      "global_capacity_gw": 75,
+      "key_countries": [
+        "中国",
+        "英国",
+        "德国",
+        "丹麦",
+        "荷兰"
+      ],
+      "cost_trend": "成本持续下降，预计2030年实现全面平价",
+      "fun_fact": "全球最大海上风机叶轮直径超过230米，扫风面积约等于4个足球场。",
+      "video": "/videos/03_offshore_wind.mp4"
+    },
+    {
+      "id": 4,
+      "name": "水力发电",
+      "name_en": "Hydroelectric Power",
+      "image": "https://preview.21cnjy.com/files/6c/8b/6c8b35a7f3fbc827947605c025fa64b3.png",
+      "category": "水能",
+      "summary": "利用水的势能和动能驱动水轮机发电，是目前全球占比最高的可再生能源，也是最古老的新能源利用形式之一。",
+      "principle": "通过大坝蓄水形成水位差（势能），水流从高处冲击水轮机叶片使其旋转，水轮机带动发电机将机械能转化为电能。",
+      "advantages": [
+        "技术极其成熟，运行可靠",
+        "发电成本低，使用寿命长（50-100年）",
+        "可调节出力，具有调峰填谷功能",
+        "兼具防洪、灌溉、航运等综合效益"
+      ],
+      "disadvantages": [
+        "大坝建设对生态环境影响大",
+        "淹没区域需移民搬迁",
+        "受干旱季节影响",
+        "优质水能资源基本已开发"
+      ],
+      "applications": [
+        "大型水电站",
+        "抽水蓄能电站",
+        "小型微型水电",
+        "潮汐水电"
+      ],
+      "global_capacity_gw": 1400,
+      "key_countries": [
+        "中国",
+        "巴西",
+        "加拿大",
+        "美国",
+        "俄罗斯"
+      ],
+      "cost_trend": "成本已基本稳定，新建大型项目受环保约束增加",
+      "fun_fact": "三峡水电站装机容量22500MW，是全球最大的水电站。",
+      "video": "/videos/04_hydroelectric.mp4"
+    },
+    {
+      "id": 5,
+      "name": "氢能与燃料电池",
+      "name_en": "Hydrogen Energy & Fuel Cells",
+      "image": "https://n.sinaimg.cn/sinakd10116/372/w574h598/20220420/c40e-3d93997445e878ab79cc340f9e41db07.jpg",
+      "category": "氢能",
+      "summary": "利用氢气作为能源载体，通过燃料电池将氢的化学能直接转化为电能，排放物仅为水，被誉为'终极清洁能源'。",
+      "principle": "氢气在燃料电池阳极被催化分解为氢离子和电子，电子通过外部电路产生电流，氢离子穿过电解质膜与阴极的氧气结合生成水。",
+      "advantages": [
+        "零碳排放，唯一排放物是水",
+        "能量密度高（是汽油的3倍）",
+        "可储存可运输，弥补可再生能源间歇性",
+        "加氢速度快（3-5分钟），续航长"
+      ],
+      "disadvantages": [
+        "制氢成本高，绿氢占比低",
+        "储运技术挑战大（高压/液态/固态储氢）",
+        "加氢站基础设施不足",
+        "安全性要求高（氢气易燃易爆）"
+      ],
+      "applications": [
+        "氢燃料电池汽车",
+        "氢能重卡",
+        "氢能叉车",
+        "备用电源",
+        "工业脱碳",
+        "氢能炼钢"
+      ],
+      "global_capacity_gw": 1.5,
+      "key_countries": [
+        "日本",
+        "韩国",
+        "中国",
+        "德国",
+        "美国"
+      ],
+      "cost_trend": "绿氢成本预计2030年降至1.5-2美元/kg",
+      "fun_fact": "1kg氢气的能量足够一辆氢燃料电池车行驶约100公里。",
+      "video": "/videos/05_hydrogen_fuelcell.mp4"
+    },
+    {
+      "id": 6,
+      "name": "生物质能",
+      "name_en": "Biomass Energy",
+      "image": "https://ts1.tc.mm.bing.net/th/id/R-C.bb8eb6a65cc91ca9e3bda0327c4ce89b?rik=b4icyPvC43uVxA&riu=http%3a%2f%2fln.news.cn%2f2023-05%2f06%2f1129594124_16833556207481n.jpg&ehk=%2fQxdjZIkMgVUU8e6oEk8g%2fCE%2bcUtejW1Yv4ECtcJ1d8%3d&risl=&pid=ImgRaw&r=0",
+      "category": "生物质能",
+      "summary": "利用有机物质（如农林废弃物、动物粪便、城市垃圾等）通过燃烧或生物化学转化获取能源，是唯一可转化为固体、液体和气体燃料的可再生能源。",
+      "principle": "生物质通过直接燃烧发电、气化合成气、厌氧发酵产沼气、或转化生产生物乙醇/生物柴油等方式释放储存的化学能。",
+      "advantages": [
+        "资源来源广泛，变废为宝",
+        "理论上碳中和（生长吸收CO₂=燃烧释放CO₂）",
+        "可转化为多种形态燃料",
+        "有利于废弃物处理和农村经济发展"
+      ],
+      "disadvantages": [
+        "能量密度较低",
+        "大规模利用可能与粮食争地",
+        "燃烧仍会产生一定空气污染",
+        "收集运输成本较高"
+      ],
+      "applications": [
+        "生物质发电厂",
+        "沼气工程",
+        "生物燃料（乙醇/柴油）",
+        "生物质供热",
+        "垃圾焚烧发电"
+      ],
+      "global_capacity_gw": 150,
+      "key_countries": [
+        "巴西",
+        "中国",
+        "美国",
+        "德国",
+        "印度"
+      ],
+      "cost_trend": "成本因原料和地区差异较大，总体趋于稳定",
+      "fun_fact": "巴西全国约40%的汽车使用甘蔗制成的生物乙醇作为燃料。",
+      "video": "/videos/06_biomass.mp4"
+    },
+    {
+      "id": 7,
+      "name": "地热能发电",
+      "name_en": "Geothermal Power",
+      "image": "https://ts1.tc.mm.bing.net/th/id/OIP-C.-9qoiOc72UEgGzNOewi9BgHaD7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "地热能",
+      "summary": "利用地球内部热量（来自地核放射性衰变和地球形成余热）进行发电或直接供热，是一种稳定可靠的基荷能源。",
+      "principle": "钻井至地下高温岩层，将地下水加热产生蒸汽，蒸汽驱动汽轮机发电。按温度分为高温（>150°C）发电和中低温（<150°C）直接利用。",
+      "advantages": [
+        "不受天气影响，可24小时稳定运行",
+        "占地面积小",
+        "使用寿命长",
+        "排放极低"
+      ],
+      "disadvantages": [
+        "优质地热资源分布有限",
+        "初始钻探成本高",
+        "可能诱发地震（增强型地热）",
+        "可能释放地下有毒气体"
+      ],
+      "applications": [
+        "地热发电站",
+        "地源热泵供暖",
+        "温室农业供暖",
+        "温泉疗养",
+        "工业干燥"
+      ],
+      "global_capacity_gw": 16,
+      "key_countries": [
+        "美国",
+        "印度尼西亚",
+        "菲律宾",
+        "土耳其",
+        "新西兰",
+        "冰岛"
+      ],
+      "cost_trend": "技术进步使成本下降，增强型地热（EGS）有望扩大适用范围",
+      "fun_fact": "冰岛约90%的房屋供暖来自地热能，被称为'冰与火之国'。",
+      "video": "/videos/07_geothermal.mp4"
+    },
+    {
+      "id": 8,
+      "name": "潮汐能发电",
+      "name_en": "Tidal Energy",
+      "image": "https://ts2.tc.mm.bing.net/th/id/OIP-C.WfXLJb0lOna2DsF1mLqYOwHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "海洋能",
+      "summary": "利用月球和太阳引力引起的海水周期性涨落（潮汐）所蕴含的能量来发电，具有高度可预测性。",
+      "principle": "主要有三种方式：潮汐坝（类似水电站，利用潮位差驱动水轮机）、潮流发电（利用潮流推动水下涡轮机）和动态潮汐能（利用相邻海域潮汐相位差）。",
+      "advantages": [
+        "潮汐周期高度可预测",
+        "不产生温室气体",
+        "使用寿命长",
+        "不占用陆地资源"
+      ],
+      "disadvantages": [
+        "适合建设的地点有限",
+        "建设成本高",
+        "可能影响海洋生态和航运",
+        "发电有间歇性"
+      ],
+      "applications": [
+        "潮汐坝电站",
+        "潮流涡轮发电",
+        "海洋牧场结合"
+      ],
+      "global_capacity_gw": 0.5,
+      "key_countries": [
+        "韩国",
+        "法国",
+        "英国",
+        "加拿大",
+        "中国"
+      ],
+      "cost_trend": "仍处于商业化早期，成本较高",
+      "fun_fact": "韩国始华湖潮汐电站装机容量254MW，是全球最大的潮汐电站。",
+      "video": "/videos/08_tidal.mp4"
+    },
+    {
+      "id": 9,
+      "name": "波浪能发电",
+      "name_en": "Wave Energy",
+      "image": "https://ts3.tc.mm.bing.net/th/id/OIP-C.2QWl7KFHfeRFzlIU_9-tiAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "海洋能",
+      "summary": "利用海洋表面波浪的运动能量（由风传递给海水）转化为电能，海洋波浪蕴含的能量密度远高于风能和太阳能。",
+      "principle": "通过振荡水柱、点吸收器、越浪装置等不同类型的波浪能转换器，将波浪的上下运动或前后运动转化为机械能，再驱动发电机。",
+      "advantages": [
+        "能量密度高（是风能的1000倍）",
+        "可预测性较好",
+        "不占用陆地资源",
+        "全球资源量巨大"
+      ],
+      "disadvantages": [
+        "技术尚不成熟，设备存活率低",
+        "海洋环境恶劣，设备易损坏",
+        "建设和维护成本高",
+        "可能影响海洋生态和渔业"
+      ],
+      "applications": [
+        "海上波浪发电装置",
+        "离网海岛供电",
+        "海洋监测设备供电"
+      ],
+      "global_capacity_gw": 0.01,
+      "key_countries": [
+        "英国",
+        "葡萄牙",
+        "澳大利亚",
+        "美国"
+      ],
+      "cost_trend": "仍处于试验和示范阶段，距离商业化还有距离",
+      "fun_fact": "全球海洋波浪能的理论储量约2-3TW，相当于目前全球总发电量的两倍。",
+      "video": "/videos/09_wave.mp4"
+    },
+    {
+      "id": 10,
+      "name": "核聚变能",
+      "name_en": "Nuclear Fusion",
+      "image": "https://ts1.tc.mm.bing.net/th/id/R-C.eb427161815911e9eb30040eb468d13a?rik=rUivp8mJjc9PhQ&riu=http%3a%2f%2fn.sinaimg.cn%2fsinacn20190524s%2f255%2fw640h415%2f20190524%2f1e44-hxntqyy1303226.jpg&ehk=%2fO5h%2fQmROeyuGJr%2bs4OK2v4yeUdgKmUg5B%2fVQxw2sK8%3d&risl=&pid=ImgRaw&r=0",
+      "category": "核能",
+      "summary": "模拟太阳内部的核聚变反应，将轻元素（如氢的同位素氘和氚）聚合成重元素并释放巨大能量，被称为'人造太阳'，是人类能源的终极梦想。",
+      "principle": "在超高温（1亿°C以上）和高压条件下，氘和氚原子核克服库仑斥力发生聚变，生成氦和中子，同时释放巨大能量（E=mc²）。",
+      "advantages": [
+        "燃料几乎无限（海水中氘含量丰富）",
+        "不产生长寿命放射性废料",
+        "不产生温室气体",
+        "固有安全性高（反应条件苛刻，一旦失控自动停止）"
+      ],
+      "disadvantages": [
+        "技术尚未突破（等离子体约束难题）",
+        "建设成本极高",
+        "距离商业化至少还需20-30年",
+        "材料抗辐射挑战大"
+      ],
+      "applications": [
+        "未来基荷发电",
+        "太空推进",
+        "工业高温热源"
+      ],
+      "global_capacity_gw": 0,
+      "key_countries": [
+        "ITER参与国（中国、欧盟、美、日、韩、俄、印）"
+      ],
+      "cost_trend": "目前仅实验阶段，ITER预计2035年实现全功率运行",
+      "fun_fact": "1升海水中的氘聚变释放的能量相当于300升汽油燃烧的能量。",
+      "video": "/videos/10_fusion.mp4"
+    },
+    {
+      "id": 11,
+      "name": "光热发电",
+      "name_en": "Concentrated Solar Power (CSP)",
+      "image": "https://ts1.tc.mm.bing.net/th/id/R-C.c76277d4cdc2e5a9da832bf6fc3ccdbf?rik=fzc6OsY6kCphIQ&riu=http%3a%2f%2fwww.cnste.org%2fuploads%2fallimg%2f190618%2f1-1Z61QI631K1.jpg&ehk=8hc%2bZQitJOBheJkLCGUiKpD%2fgMlzIhNjVs7dFJEU%2b6o%3d&risl=&pid=ImgRaw&r=0",
+      "category": "太阳能",
+      "summary": "利用大量镜子或透镜将太阳光聚焦集中产生高温，加热工质驱动汽轮机发电，可自带熔盐储热系统实现夜间发电。",
+      "principle": "通过抛物面槽式、塔式、碟式或线性菲涅尔式聚光器，将太阳辐射聚焦到接收器上，加热导热介质（如熔盐）至500°C以上，产生蒸汽驱动汽轮机。",
+      "advantages": [
+        "自带储热系统，可实现24小时连续发电",
+        "输出电力稳定，可调度",
+        "无碳排放",
+        "可与天然气联合运行"
+      ],
+      "disadvantages": [
+        "建设成本高于光伏发电",
+        "需要高直射辐射地区",
+        "用水量较大（湿冷系统）",
+        "占地面积大"
+      ],
+      "applications": [
+        "塔式光热电站",
+        "槽式光热电站",
+        "工业供热",
+        "海水淡化"
+      ],
+      "global_capacity_gw": 7,
+      "key_countries": [
+        "西班牙",
+        "美国",
+        "中国",
+        "摩洛哥",
+        "南非"
+      ],
+      "cost_trend": "成本持续下降但仍高于光伏，储热是其独特优势",
+      "fun_fact": "西班牙Gemasolar电站是全球首个可24小时持续发电的光热电站。",
+      "video": "/videos/11_csp.mp4"
+    },
+    {
+      "id": 12,
+      "name": "绿色甲醇",
+      "name_en": "Green Methanol",
+      "image": "https://origin-static.oss-cn-beijing.aliyuncs.com/img/2023/0408/9b129224/33e9f2d1.jpeg",
+      "category": "绿色燃料",
+      "summary": "利用可再生电力制取的绿氢与捕集的CO₂合成的甲醇，作为清洁的液态燃料和化工原料，是航运业脱碳的重要路径。",
+      "principle": "通过Power-to-X技术：可再生电力→电解水制绿氢→绿氢与CO₂在催化剂作用下合成甲醇（CO₂+3H₂→CH₃OH+H₂O）。",
+      "advantages": [
+        "液态常温常压，储运方便",
+        "可利用现有燃料基础设施",
+        "碳循环利用（消耗CO₂）",
+        "可作为化工原料和船用燃料"
+      ],
+      "disadvantages": [
+        "生产成本高（依赖绿氢成本下降）",
+        "能量转化效率较低",
+        "CO₂来源需确保为捕集碳",
+        "甲醇有一定毒性"
+      ],
+      "applications": [
+        "远洋船舶燃料",
+        "化工原料",
+        "汽油添加剂",
+        "储能介质"
+      ],
+      "global_capacity_gw": 0.5,
+      "key_countries": [
+        "中国",
+        "冰岛",
+        "丹麦",
+        "瑞典"
+      ],
+      "cost_trend": "目前绿甲醇价格约为传统甲醇的2-3倍",
+      "fun_fact": "马士基等全球航运巨头已开始大规模订购甲醇动力集装箱船。",
+      "video": "/videos/12_green_methanol.mp4"
+    },
+    {
+      "id": 13,
+      "name": "固态电池",
+      "name_en": "Solid-State Battery",
+      "image": "https://zyxh.csu.edu.cn/__local/E/83/26/913214E752BFE5974898EB96A81_732700AA_2DF5C.png",
+      "category": "储能技术",
+      "summary": "用固态电解质替代传统锂离子电池中的液态电解质，大幅提升能量密度、安全性和充电速度，被视为下一代电池技术。",
+      "principle": "固态电解质（硫化物、氧化物或聚合物）同时充当隔膜和离子传导介质，锂离子在固态电解质中迁移完成充放电过程。",
+      "advantages": [
+        "能量密度提升50%以上",
+        "不易燃，安全性大幅提升",
+        "充电速度更快",
+        "循环寿命更长"
+      ],
+      "disadvantages": [
+        "固态电解质离子电导率较低",
+        "界面阻抗大",
+        "制造工艺不成熟",
+        "成本高"
+      ],
+      "applications": [
+        "电动汽车",
+        "消费电子",
+        "航空航天",
+        "储能系统"
+      ],
+      "global_capacity_gw": 0,
+      "key_countries": [
+        "日本",
+        "韩国",
+        "中国",
+        "美国",
+        "德国"
+      ],
+      "cost_trend": "预计2027-2030年开始量产，届时成本将快速下降",
+      "fun_fact": "丰田计划2027-2028年推出搭载固态电池的电动车，续航可达1200公里。",
+      "video": "/videos/13_solid_state_battery.mp4"
+    },
+    {
+      "id": 14,
+      "name": "压缩空气储能",
+      "name_en": "Compressed Air Energy Storage (CAES)",
+      "image": "https://cpnn.com.cn/news/hy/202312/W020231204386063016098.jpeg",
+      "category": "储能技术",
+      "summary": "利用富余电力将空气压缩储存于地下洞穴或高压容器中，需要时释放压缩空气驱动膨胀机发电，是大规模长时储能技术之一。",
+      "principle": "充电阶段：电动机驱动压缩机将空气压缩至高压（70-100bar）储存；放电阶段：高压空气经膨胀机驱动发电机发电。先进绝热CAES可回收压缩热提升效率。",
+      "advantages": [
+        "储能容量大（百MWh级）",
+        "使用寿命长（30-40年）",
+        "环保无污染",
+        "适合大规模长时储能"
+      ],
+      "disadvantages": [
+        "需要合适的地下洞穴或大容量容器",
+        "传统CAES需要燃气补热",
+        "能量转化效率中等（50-70%）",
+        "建设周期长"
+      ],
+      "applications": [
+        "电网调峰",
+        "可再生能源消纳",
+        "备用电源",
+        "工业用气"
+      ],
+      "global_capacity_gw": 0.4,
+      "key_countries": [
+        "美国",
+        "德国",
+        "中国"
+      ],
+      "cost_trend": "先进绝热CAES效率提升至70%+，成本有望下降",
+      "fun_fact": "德国Huntorf电站是全球首座CAES电站，1978年投运至今仍在运行。",
+      "video": "/videos/14_caes.mp4"
+    },
+    {
+      "id": 15,
+      "name": "钠离子电池",
+      "name_en": "Sodium-Ion Battery",
+      "image": "https://ts1.tc.mm.bing.net/th/id/R-C.0856985beac387508708bbc11169da59?rik=6JIaHNCAUpegwQ&riu=http%3a%2f%2fn.sinaimg.cn%2fsinakd20111%2f606%2fw900h506%2f20230106%2fbe03-ef95b9cb4907cb50c141bd547df9a83d.jpg&ehk=J%2fvfuqyBu3GwbNgF2naWxcmNiFnPZmlBK3GbdApEsT4%3d&risl=&pid=ImgRaw&r=0",
+      "category": "储能技术",
+      "summary": "以钠离子作为电荷载体的新型电池，钠资源丰富且分布均匀，成本远低于锂离子电池，是大规模储能和低速电动车的理想选择。",
+      "principle": "与锂离子电池类似，钠离子在正负极之间嵌入/脱出完成充放电。正极材料包括层状氧化物、普鲁士蓝类等，负极常用硬碳。",
+      "advantages": [
+        "钠资源丰富（地壳丰度是锂的1000倍）",
+        "成本低（材料便宜30-40%）",
+        "低温性能好",
+        "安全性高（可放电至0V运输）"
+      ],
+      "disadvantages": [
+        "能量密度低于锂电池",
+        "循环寿命有待提升",
+        "产业链尚不成熟",
+        "体积能量密度较低"
+      ],
+      "applications": [
+        "大规模储能",
+        "低速电动车",
+        "基站备电",
+        "电动两轮车"
+      ],
+      "global_capacity_gw": 0.1,
+      "key_countries": [
+        "中国",
+        "美国",
+        "英国",
+        "瑞典"
+      ],
+      "cost_trend": "2023年开始量产，预计2025年成本降至锂电的60-70%",
+      "fun_fact": "宁德时代发布的钠离子电池能量密度已达160Wh/kg，第二代目标200Wh/kg。",
+      "video": "/videos/15_sodium_ion.mp4"
+    },
+    {
+      "id": 16,
+      "name": "温差能/海洋热能",
+      "name_en": "Ocean Thermal Energy Conversion (OTEC)",
+      "image": "https://ts2.tc.mm.bing.net/th/id/OIP-C.HK9GADyZ8NYN2VMQ_B41mgHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "海洋能",
+      "summary": "利用海洋表层温水（~25°C）与深层冷水（~5°C）之间的温度差来发电，热带海域尤其丰富，是一种稳定持续的可再生能源。",
+      "principle": "利用温差驱动低沸点工质（如氨）在蒸发器中被表层温海水汽化，蒸汽驱动涡轮机发电，然后由深层冷海水冷凝工质，完成循环。",
+      "advantages": [
+        "可24小时连续稳定运行",
+        "资源量巨大（热带海洋）",
+        "副产品包括淡水和深层营养水",
+        "不产生温室气体"
+      ],
+      "disadvantages": [
+        "需要1000米以上深水区域",
+        "温差要求>20°C（限于热带）",
+        "能量转化效率很低（3-5%）",
+        "建设成本极高"
+      ],
+      "applications": [
+        "热带岛屿发电",
+        "海水淡化",
+        "深水养殖",
+        "空调制冷"
+      ],
+      "global_capacity_gw": 0.001,
+      "key_countries": [
+        "美国",
+        "日本",
+        "印度",
+        "韩国"
+      ],
+      "cost_trend": "成本仍远高于其他可再生能源",
+      "fun_fact": "OTEC是唯一能提供基荷电力的海洋能技术，热带海洋的热能储量相当于人类年耗能的数千倍。",
+      "video": "/videos/16_otec.mp4"
+    },
+    {
+      "id": 17,
+      "name": "飞轮储能",
+      "name_en": "Flywheel Energy Storage",
+      "image": "https://img95.699pic.com/photo/60005/3984.jpg_wh860.jpg",
+      "category": "储能技术",
+      "summary": "利用高速旋转的飞轮转子储存动能，充电时电机驱动飞轮加速，放电时飞轮驱动发电机，是一种响应极快的功率型储能技术。",
+      "principle": "电能驱动电动机将飞轮加速至数万转/分钟（动能E=½Iω²），需要时飞轮带动发电机将动能转回电能。真空和磁悬浮轴承减少摩擦损耗。",
+      "advantages": [
+        "响应速度极快（毫秒级）",
+        "循环寿命极长（百万次以上）",
+        "功率密度高",
+        "无化学污染，环保"
+      ],
+      "disadvantages": [
+        "储能时间短（秒到分钟级）",
+        "能量密度较低",
+        "自放电率较高",
+        "成本较高"
+      ],
+      "applications": [
+        "电网频率调节",
+        "UPS不间断电源",
+        "轨道交通制动能量回收",
+        "数据中心备用电源"
+      ],
+      "global_capacity_gw": 0.05,
+      "key_countries": [
+        "美国",
+        "德国",
+        "中国",
+        "日本"
+      ],
+      "cost_trend": "技术成熟，成本稳步下降",
+      "fun_fact": "最先进的飞轮转速可达60000转/分钟，边缘线速度接近音速。",
+      "video": "/videos/17_flywheel.mp4"
+    },
+    {
+      "id": 18,
+      "name": "钙钛矿太阳能电池",
+      "name_en": "Perovskite Solar Cell",
+      "image": "https://ts1.tc.mm.bing.net/th/id/R-C.98124f3b76c04d84477908ee770613bf?rik=ciNyxpLPMFCLyw&riu=http%3a%2f%2fn.sinaimg.cn%2fsinakd20230421s%2f532%2fw1280h852%2f20230421%2fa649-67e90aff5eb9144d70ab186d7276aa74.jpg&ehk=Go3gpZgmI7Y8%2babjLX%2blCCVtQ7sZBxfL%2foPaUrh4c7A%3d&risl=&pid=ImgRaw&r=0",
+      "category": "太阳能",
+      "summary": "采用钙钛矿结构材料（如甲胺铅碘）作为吸光层的新一代太阳能电池，效率提升速度远超传统硅电池，被视为光伏技术的颠覆者。",
+      "principle": "钙钛矿材料（ABX₃结构）具有优异的光吸收性能和载流子传输特性，光子被吸收后产生电子-空穴对，被两侧电极收集形成电流。",
+      "advantages": [
+        "效率提升极快（10年内从3.8%到26%+）",
+        "材料成本低，可溶液法制备",
+        "可做成柔性、半透明电池",
+        "可与硅电池叠层提升效率（>33%）"
+      ],
+      "disadvantages": [
+        "稳定性差，对水氧敏感",
+        "含铅有环保争议",
+        "大面积制备工艺不成熟",
+        "长期可靠性待验证"
+      ],
+      "applications": [
+        "叠层太阳能电池",
+        "建筑一体化光伏（BIPV）",
+        "柔性可穿戴设备",
+        "室内光能采集"
+      ],
+      "global_capacity_gw": 0,
+      "key_countries": [
+        "中国",
+        "美国",
+        "韩国",
+        "英国",
+        "瑞士"
+      ],
+      "cost_trend": "叠层电池有望2028年量产，成本接近硅电池",
+      "fun_fact": "钙钛矿太阳能电池的效率提升速度是光伏史上最快的，10年提升了近7倍。",
+      "video": "/videos/18_perovskite.mp4"
+    },
+    {
+      "id": 19,
+      "name": "液流电池",
+      "name_en": "Flow Battery",
+      "image": "https://tse2-mm.cn.bing.net/th/id/OIP-C.Nu6CxjGNhX8usYdzz4e06QHaEg?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "储能技术",
+      "summary": "正负极活性物质以液态形式储存于外部储罐中，通过泵送至电堆进行电化学反应，功率和容量可独立设计，特别适合大规模长时储能。",
+      "principle": "两种不同价态的电解液分别流经正负极，在离子交换膜两侧发生氧化还原反应，实现电能的储存和释放。容量取决于储罐大小，功率取决于电堆大小。",
+      "advantages": [
+        "功率和容量解耦，设计灵活",
+        "循环寿命极长（20年+）",
+        "安全性高，不易燃",
+        "适合4小时以上长时储能"
+      ],
+      "disadvantages": [
+        "能量密度较低",
+        "系统复杂（泵、管路、储罐）",
+        "电解液成本高（钒液流）",
+        "效率中等（65-80%）"
+      ],
+      "applications": [
+        "电网级储能",
+        "可再生能源并网",
+        "工商业储能",
+        "微电网"
+      ],
+      "global_capacity_gw": 0.5,
+      "key_countries": [
+        "中国",
+        "日本",
+        "美国",
+        "澳大利亚"
+      ],
+      "cost_trend": "全钒液流电池成本高，铁铬/锌溴等低成本体系正在发展",
+      "fun_fact": "大连液流电池储能调峰电站是全球最大的液流电池项目，容量达400MWh。",
+      "video": "/videos/19_flow_battery.mp4"
+    },
+    {
+      "id": 20,
+      "name": "可控核裂变（小型模块化反应堆）",
+      "name_en": "Small Modular Reactor (SMR)",
+      "image": "https://p1.itc.cn/images01/20210511/4cede04c1cc0440ca61d3f10a76f61d8.jpeg",
+      "category": "核能",
+      "summary": "单机容量小于300MW的模块化核裂变反应堆，采用工厂预制、现场组装的模式，建设周期短、投资灵活，是核能复兴的重要方向。",
+      "principle": "与传统大型核电站相同，通过可控核裂变链式反应释放热量，加热水产生蒸汽驱动汽轮机发电。但采用一体化设计和被动安全系统。",
+      "advantages": [
+        "模块化生产，建设周期短",
+        "投资规模小，风险可控",
+        "固有安全性高（被动冷却）",
+        "可灵活部署在偏远地区"
+      ],
+      "disadvantages": [
+        "规模经济不如大型堆",
+        "仍产生核废料",
+        "审批和公众接受度挑战",
+        "部分设计仍处示范阶段"
+      ],
+      "applications": [
+        "分布式发电",
+        "工业供热",
+        "海水淡化",
+        "偏远地区供电",
+        "军事基地"
+      ],
+      "global_capacity_gw": 0.1,
+      "key_countries": [
+        "中国",
+        "美国",
+        "俄罗斯",
+        "英国",
+        "韩国"
+      ],
+      "cost_trend": "首堆成本较高，批量生产后有望大幅下降",
+      "fun_fact": "中国玲龙一号（ACP100）是全球首个陆上商用小型模块化反应堆，2026年投运。",
+      "video": "/videos/20_smr.mp4"
+    },
+    {
+      "id": 21,
+      "name": "锂离子电池储能",
+      "name_en": "Lithium-Ion Battery Storage",
+      "image": "https://xiayygroup.fudan.edu.cn/_upload/article/images/c0/b5/c4513218473bb9c51089a694b0df/90142a3b-2934-4b1c-ae61-301b423bcc4a.png",
+      "category": "储能技术",
+      "summary": "利用锂离子在正负极之间嵌入/脱出实现电能存储和释放的技术，是目前商业化程度最高、应用最广泛的电化学储能技术。",
+      "principle": "充电时锂离子从正极脱出经电解液嵌入负极，放电时反向移动。正极材料包括磷酸铁锂、三元材料等，负极常用石墨。",
+      "advantages": [
+        "能量密度高（150-250Wh/kg）",
+        "技术成熟，产业链完善",
+        "循环寿命长（2000-6000次）",
+        "响应速度快（毫秒级）"
+      ],
+      "disadvantages": [
+        "成本较高（需锂、钴等稀缺资源）",
+        "安全性隐患（热失控风险）",
+        "低温性能下降",
+        "废旧电池回收处理困难"
+      ],
+      "applications": [
+        "电网调峰调频",
+        "工商业储能",
+        "户用储能",
+        "电动汽车充电站",
+        "可再生能源并网"
+      ],
+      "global_capacity_gw": 100,
+      "key_countries": [
+        "中国",
+        "美国",
+        "韩国",
+        "日本",
+        "澳大利亚"
+      ],
+      "cost_trend": "近十年成本下降超过90%，已降至100-150美元/kWh",
+      "fun_fact": "全球最大的锂电池储能项目是澳大利亚的Victorian Big Battery，容量达300MW/450MWh。",
+      "video": "/videos/21_li_ion_battery.mp4"
+    },
+    {
+      "id": 22,
+      "name": "抽水蓄能",
+      "name_en": "Pumped Hydro Storage",
+      "image": "https://tse3-mm.cn.bing.net/th/id/OIP-C.ruT7LQjBhY90Rgoyp2GndwHaEp?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "储能技术",
+      "summary": "利用电力将水从低位水库抽到高位水库储存势能，需要时放水发电，是目前全球装机容量最大、技术最成熟的大规模储能方式。",
+      "principle": "用电低谷时，利用富余电力将下水库的水抽到上水库储存势能；用电高峰时，放水从上水库流向下水库，驱动水轮机发电。",
+      "advantages": [
+        "装机容量大（可达GW级）",
+        "使用寿命长（50-100年）",
+        "技术极其成熟",
+        "转换效率高（70-85%）"
+      ],
+      "disadvantages": [
+        "选址要求高（需要地形落差）",
+        "建设周期长（6-8年）",
+        "投资规模大",
+        "对生态环境有一定影响"
+      ],
+      "applications": [
+        "电网调峰填谷",
+        "可再生能源消纳",
+        "黑启动电源",
+        "系统备用"
+      ],
+      "global_capacity_gw": 1600,
+      "key_countries": [
+        "中国",
+        "日本",
+        "美国",
+        "意大利",
+        "德国"
+      ],
+      "cost_trend": "建设成本约5000-7000元/kW，度电成本0.2-0.3元",
+      "fun_fact": "全球最大的抽水蓄能电站是中国的丰宁抽水蓄能电站，装机容量3600MW。",
+      "video": "/videos/22_pumped_hydro.mp4"
+    },
+    {
+      "id": 23,
+      "name": "超级电容器储能",
+      "name_en": "Supercapacitor Storage",
+      "image": "https://ts1.tc.mm.bing.net/th/id/R-C.777ca63c4f3bce0933e27fce4dcd77bc?rik=eo5%2fWynJuyXAvw&riu=http%3a%2f%2fwww.leadernano.com%2fwp-content%2fuploads%2f2025%2f07%2f1-4-1024x479.jpg&ehk=UfiW4hOXTCPVYDbzm9yD0RSRkI6Xdj6BdfHYAOKEwgM%3d&risl=&pid=ImgRaw&r=0",
+      "category": "储能技术",
+      "summary": "利用电极和电解质界面形成的双电层或赝电容存储电荷的储能装置，具有功率密度高、充放电速度快、循环寿命极长的特点。",
+      "principle": "通过电极与电解质界面的静电吸附（双电层）或快速可逆的法拉第反应（赝电容）存储电荷，不涉及化学反应。",
+      "advantages": [
+        "功率密度高（10kW/kg以上）",
+        "充放电速度极快（秒级）",
+        "循环寿命极长（百万次以上）",
+        "工作温度范围广"
+      ],
+      "disadvantages": [
+        "能量密度低（5-10Wh/kg）",
+        "成本较高",
+        "电压随放电线性下降",
+        "自放电率较高"
+      ],
+      "applications": [
+        "电网频率调节",
+        "UPS不间断电源",
+        "轨道交通制动能量回收",
+        "风力发电变桨系统"
+      ],
+      "global_capacity_gw": 10,
+      "key_countries": [
+        "中国",
+        "美国",
+        "韩国",
+        "日本",
+        "德国"
+      ],
+      "cost_trend": "成本持续下降，但仍高于锂电池",
+      "fun_fact": "超级电容器可在-40°C到+65°C的极端温度下工作，是电池无法比拟的优势。",
+      "video": "/videos/23_supercapacitor.mp4"
+    },
+    {
+      "id": 24,
+      "name": "氢储能",
+      "name_en": "Hydrogen Energy Storage",
+      "image": "https://tse3-mm.cn.bing.net/th/id/OIP-C.6dO-_Ph5-yAyHx3rQohtrgHaEL?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "储能技术",
+      "summary": "利用富余可再生能源电力电解水制取氢气储存，需要时通过燃料电池发电或直接燃烧，是实现长时储能和跨季节储能的重要技术。",
+      "principle": "储能阶段：可再生能源电力→电解水→氢气（压缩/液化/固态储存）；释能阶段：氢气→燃料电池→电能，或氢气直接燃烧发电。",
+      "advantages": [
+        "储能容量大，可实现TWh级",
+        "可长时储存（跨季节）",
+        "清洁零碳排放",
+        "可与天然气管网混输"
+      ],
+      "disadvantages": [
+        "整体效率较低（30-40%）",
+        "储运技术挑战大",
+        "基础设施不完善",
+        "成本较高"
+      ],
+      "applications": [
+        "长时储能",
+        "跨季节储能",
+        "绿氢化工",
+        "氢燃料电池发电",
+        "掺氢天然气"
+      ],
+      "global_capacity_gw": 1,
+      "key_countries": [
+        "日本",
+        "德国",
+        "美国",
+        "中国",
+        "韩国"
+      ],
+      "cost_trend": "绿氢成本预计2030年降至1.5-2美元/kg",
+      "fun_fact": "1kg氢气的能量相当于3.3kg汽油，是汽油能量密度的3倍。",
+      "video": "/videos/24_hydrogen_storage.mp4"
+    },
+    {
+      "id": 25,
+      "name": "熔盐储能",
+      "name_en": "Molten Salt Storage",
+      "image": "https://tse2-mm.cn.bing.net/th/id/OIP-C._oxvqdloyxHP8Gqe38EtDAHaEX?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "储能技术",
+      "summary": "利用熔盐在高温下储存热能的技术，主要应用于光热发电系统，可实现24小时连续稳定发电，是光热发电的核心技术之一。",
+      "principle": "白天利用聚焦的太阳光加热熔盐至565°C以上储存热能；夜间或需要时，高温熔盐与水换热产生蒸汽驱动汽轮机发电。",
+      "advantages": [
+        "可实现24小时连续发电",
+        "储热容量大",
+        "技术成熟",
+        "可与火电联合运行"
+      ],
+      "disadvantages": [
+        "需要高温工作环境",
+        "熔盐凝固风险",
+        "系统复杂",
+        "仅适用于光热发电"
+      ],
+      "applications": [
+        "光热发电",
+        "工业余热利用",
+        "清洁供暖",
+        "海水淡化"
+      ],
+      "global_capacity_gw": 21,
+      "key_countries": [
+        "西班牙",
+        "美国",
+        "中国",
+        "摩洛哥",
+        "南非"
+      ],
+      "cost_trend": "熔盐储热成本约30-50美元/kWh",
+      "fun_fact": "熔盐储能可使光热电站实现15小时以上的储热时长，真正实现24小时连续发电。",
+      "video": "/videos/25_molten_salt.mp4"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123456",
+      "nickname": "管理员",
+      "email": "admin@newenergy.com",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100",
+      "bio": "新能源科普爱好者，致力于推广清洁能源知识",
+      "favorites": [],
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 2,
+      "username": "zhangsan",
+      "password": "123456",
+      "nickname": "张三",
+      "email": "zhangsan@example.com",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100",
+      "bio": "环保主义者，关注新能源发展",
+      "favorites": [
+        2,
+        4,
+        6
+      ],
+      "createTime": "2024-01-15"
+    },
+    {
+      "id": 3,
+      "username": "lisi",
+      "password": "123456",
+      "nickname": "李四",
+      "email": "lisi@example.com",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100",
+      "bio": "能源行业从业者",
+      "favorites": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "createTime": "2024-02-01"
+    },
+    {
+      "username": "laola",
+      "nickname": "laola",
+      "email": "admin@example.com",
+      "password": "123456",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100",
+      "bio": "新能源科普爱好者",
+      "favorites": [],
+      "createTime": "2026-05-24",
+      "id": 4
+    },
+    {
+      "username": "lll",
+      "nickname": "lll",
+      "email": "admin@example.com",
+      "password": "123456",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100",
+      "bio": "新能源科普爱好者",
+      "favorites": [],
+      "createTime": "2026-05-25",
+      "id": 5
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "title": "太阳能光伏发电",
+      "description": "清洁能源的未来之光，让阳光照亮美好生活",
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200",
+      "link": "/detail/1"
+    },
+    {
+      "id": 2,
+      "title": "风力发电",
+      "description": "驭风而行，点亮绿色生活",
+      "image": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=1200",
+      "link": "/detail/2"
+    },
+    {
+      "id": 3,
+      "title": "氢能与燃料电池",
+      "description": "终极清洁能源的探索之路",
+      "image": "https://ts4.tc.mm.bing.net/th/id/OIP-C.K7euV-hRCLluvjSHH1HqZwHaDq?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "link": "/detail/5"
+    },
+    {
+      "id": 4,
+      "title": "水力发电",
+      "description": "奔流不息，能量无穷",
+      "image": "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=1200",
+      "link": "/detail/4"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "太阳能",
+      "icon": "Sunny",
+      "count": 3
+    },
+    {
+      "id": 2,
+      "name": "风能",
+      "icon": "WindPower",
+      "count": 2
+    },
+    {
+      "id": 3,
+      "name": "水能",
+      "icon": "Drizzling",
+      "count": 1
+    },
+    {
+      "id": 4,
+      "name": "氢能",
+      "icon": "Lightning",
+      "count": 1
+    },
+    {
+      "id": 5,
+      "name": "生物质能",
+      "icon": "Grape",
+      "count": 1
+    },
+    {
+      "id": 6,
+      "name": "地热能",
+      "icon": "Sunrise",
+      "count": 1
+    },
+    {
+      "id": 7,
+      "name": "海洋能",
+      "icon": "Ship",
+      "count": 3
+    },
+    {
+      "id": 8,
+      "name": "核能",
+      "icon": "Connection",
+      "count": 2
+    },
+    {
+      "id": 9,
+      "name": "储能技术",
+      "icon": "Cpu",
+      "count": 10
+    },
+    {
+      "id": 10,
+      "name": "绿色燃料",
+      "icon": "MagicStick",
+      "count": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "energyId": 1,
+      "userId": 1,
+      "username": "管理员",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100",
+      "content": "太阳能是最有前景的新能源！未来家家户户都能用上太阳能发电。",
+      "createTime": "2024-01-15 10:30:00"
+    },
+    {
+      "id": 2,
+      "energyId": 1,
+      "userId": 2,
+      "username": "张三",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100",
+      "content": "我家屋顶就装了光伏板，每月都能省不少电费，还能卖电给电网。",
+      "createTime": "2024-01-16 14:20:00"
+    },
+    {
+      "id": 3,
+      "energyId": 2,
+      "userId": 3,
+      "username": "李四",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100",
+      "content": "风力发电技术已经非常成熟了，成本也在不断下降。",
+      "createTime": "2024-01-17 09:15:00"
+    },
+    {
+      "id": 4,
+      "energyId": 5,
+      "userId": 1,
+      "username": "管理员",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100",
+      "content": "氢能被称为终极清洁能源，期待技术突破！",
+      "createTime": "2024-01-18 16:45:00"
+    },
+    {
+      "id": 5,
+      "energyId": 3,
+      "userId": 2,
+      "username": "张三",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100",
+      "content": "海上风电是未来的趋势，不占陆地资源，风力还更稳定。",
+      "createTime": "2024-01-19 11:30:00"
+    },
+    {
+      "id": 6,
+      "energyId": 4,
+      "userId": 3,
+      "username": "李四",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100",
+      "content": "三峡水电站真是国之重器，为国家能源安全做出了巨大贡献。",
+      "createTime": "2024-01-20 08:00:00"
+    },
+    {
+      "id": 7,
+      "energyId": 10,
+      "userId": 1,
+      "username": "管理员",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100",
+      "content": "核聚变如果能实现商业化，将是人类能源的终极解决方案。",
+      "createTime": "2024-01-21 13:20:00"
+    },
+    {
+      "id": 8,
+      "energyId": 6,
+      "userId": 2,
+      "username": "张三",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100",
+      "content": "生物质能变废为宝，既环保又经济，值得推广。",
+      "createTime": "2024-01-22 15:10:00"
+    },
+    {
+      "id": 9,
+      "energyId": 7,
+      "userId": 3,
+      "username": "李四",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100",
+      "content": "地热能不受天气影响，稳定性非常好，适合做基荷电源。",
+      "createTime": "2024-01-23 10:45:00"
+    },
+    {
+      "id": 10,
+      "energyId": 13,
+      "userId": 1,
+      "username": "管理员",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100",
+      "content": "固态电池一旦量产，电动车续航焦虑将彻底解决。",
+      "createTime": "2024-01-24 14:30:00"
+    },
+    {
+      "id": 11,
+      "energyId": 8,
+      "userId": 2,
+      "username": "张三",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100",
+      "content": "潮汐能的可预测性是其他新能源无法比拟的优势。",
+      "createTime": "2024-01-25 09:00:00"
+    },
+    {
+      "id": 12,
+      "energyId": 11,
+      "userId": 3,
+      "username": "李四",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100",
+      "content": "光热发电自带储热，可以24小时连续发电，这是光伏做不到的。",
+      "createTime": "2024-01-26 16:20:00"
+    }
+  ]
+}

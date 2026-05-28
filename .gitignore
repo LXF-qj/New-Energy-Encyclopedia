@@ -39,7 +39,6 @@ __screenshots__/
 *.timestamp-*-*.mjs
 
 # Local database files
-db.json
 db_merged.json
 
 # Python utility scripts
@@ -49,6 +48,5 @@ db_merged.json
 public/videos/
 
 # Project documents
-视频src.md
 项目报告.md
 新能源科普百科_项目计划文档.md
